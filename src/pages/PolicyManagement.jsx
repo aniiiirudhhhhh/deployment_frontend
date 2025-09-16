@@ -508,7 +508,7 @@ const PolicyManagement = () => {
               </>
             )}
 
-            {thresholds.length > 0 && (
+            {/* {thresholds.length > 0 && (
               <div className="mt-6 h-40 w-40 mx-auto">
                 <ResponsiveContainer width="100%" height="100%">
                   <PieChart>
@@ -533,7 +533,7 @@ const PolicyManagement = () => {
                   </PieChart>
                 </ResponsiveContainer>
               </div>
-            )}
+            )} */}
           </section>
         </div>
       </main>
