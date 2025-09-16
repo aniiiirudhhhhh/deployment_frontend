@@ -76,7 +76,7 @@ const Dashboard = () => {
                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                   </svg>
                 </div>
-                <span className="font-medium">Easy Integration</span>
+                <span className="font-medium"></span>
               </div>
               <div className="flex items-center justify-center space-x-3 text-gray-700">
                 <div className="w-8 h-8 bg-purple-100 rounded-full flex items-center justify-center">
@@ -84,7 +84,7 @@ const Dashboard = () => {
                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                   </svg>
                 </div>
-                <span className="font-medium">Smart Automation</span>
+                <span className="font-medium">Customized Reward Policies</span>
               </div>
             </div>
 
@@ -150,8 +150,8 @@ const Dashboard = () => {
                 },
                 {
                   icon: "🚀",
-                  title: "Scalable Solution",
-                  description: "Built to grow with your business from startup to enterprise level operations.",
+                  title: "Tier Management",
+                  description: "Easily create and manage reward levels like Silver, Gold, and Platinum to motivate customers and enhance engagement at every stage of their journey.",
                   color: "orange"
                 }
               ].map((feature, index) => {

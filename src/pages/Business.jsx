@@ -212,7 +212,7 @@ const Business = () => {
                 <dt className="font-medium text-gray-700">Description:</dt>
                 <dd className="text-gray-900">{policy.description}</dd>
                 <dt className="font-medium text-gray-700">Base Points:</dt>
-                <dd className="text-gray-900">{policy.basePointsPer100}</dd>
+                <dd className="text-gray-900">{policy.basePointsPerUnit}</dd>
                 <dt className="font-medium text-gray-700">Redemption Rate:</dt>
                 <dd className="text-gray-900">{policy.redemptionRate}</dd>
                 <dt className="font-medium text-gray-700">Minimum Redeem Points:</dt>
