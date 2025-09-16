@@ -47,7 +47,7 @@ const CustomerTransactions = () => {
           className="text-xl font-bold cursor-pointer"
           onClick={() => navigate("/customer")}
         >
-          Loyalty Program
+          Reward Management System
         </h1>
         <nav className="flex items-center space-x-4 md:space-x-6">
           <button

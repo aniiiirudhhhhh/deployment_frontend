@@ -186,7 +186,7 @@ const Customer = () => {
       {/* Header */}
       <header className="bg-indigo-700 text-white px-6 py-4 flex justify-between items-center shadow sticky top-0 z-50">
         <h1 className="text-xl font-bold cursor-pointer" onClick={() => navigate("/customer")}>
-          Loyalty Program
+          Reward Management System
         </h1>
         <nav className="flex items-center space-x-4 md:space-x-6">
           <button onClick={() => navigate("/customer/points")} className="bg-indigo-500 hover:bg-indigo-600 px-4 py-2 rounded text-white font-semibold">Points</button>
