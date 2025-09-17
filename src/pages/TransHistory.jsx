@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import API from "../api";
-import { ArrowLeft, DollarSign, Gift, RefreshCcw, TrendingUp } from "lucide-react";
+import { ArrowLeft, DollarSign, Gift, IndianRupeeIcon, RefreshCcw, TrendingUp } from "lucide-react";
 
 const TransHistory = () => {
   const { customerId } = useParams();
@@ -69,8 +69,8 @@ const TransHistory = () => {
             >
               <div className="flex items-center justify-between mb-4">
                 <span className="flex items-center gap-2 font-semibold text-lg text-purple-700">
-                  <DollarSign className="w-5 h-5 text-green-500" />
-                  ₹{t.amount}
+                  <IndianRupeeIcon className="w-5 h-5 text-green-500" />
+                  {t.amount}
                 </span>
                 <span className="text-xs text-gray-500">
                   {new Date(t.createdAt).toLocaleDateString()}
